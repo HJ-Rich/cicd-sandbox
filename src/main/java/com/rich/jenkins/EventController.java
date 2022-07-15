@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/rich-event")
 public class EventController {
 
-    private final Logger logger = LoggerFactory.getLogger(EventController.class);
+    private final Logger logger = LoggerFactory.getLogger(EventController.class); //merge
 
     @PostMapping
     public ResponseEntity<Void> response(@RequestBody Map<String, Object> requestBody) {
