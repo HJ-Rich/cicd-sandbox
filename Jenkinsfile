@@ -8,7 +8,7 @@ pipeline {
 		stage('Hello') {
 			steps {
 				echo "hello"
-				echo "hello222"
+				echo "hello22ww2"
 			}
 		}
 	}
